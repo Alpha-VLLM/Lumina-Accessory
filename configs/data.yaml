@@ -1,0 +1,10 @@
+META:
+  -
+    path: '/mnt/hwfile/alpha_vl/duruoyi_share/omicaption/flux_pro_batch_Detailed.json'
+    type: 'text_image_pair'
+  -
+    path: 'path_to_subject_driven_data'
+    type: 'subject_driven'
+  -
+    path: 'path_to_editing_data'
+    type: 'editing'
