@@ -31,7 +31,7 @@
 - **🚀 Inference Code & Gradio Demo** – Test and showcase the **universal model’s capabilities** interactively!  
 
 ## 📰 News
-- [2025-4-XX] 🚀🚀🚀 We are excited to release `Lumina-Accessory`, including:
+- [2025-4-21] 🚀🚀🚀 We are excited to release `Lumina-Accessory`, including:
   - 🎯 Checkpoints, Fine-Tuning and Inference code.
 
 ## 📑 Open-source Plan
