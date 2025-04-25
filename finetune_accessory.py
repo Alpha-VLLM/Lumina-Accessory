@@ -59,7 +59,7 @@ from parallel import distributed_init, get_intra_node_process_group
 from transport import create_transport
 from util.misc import SmoothedValue
 from util.mask_tools import generate_random_mask
-from models.lora import replace_linear_with_lora
+from models_accessory.lora import replace_linear_with_lora
 
 
 #############################################################################
