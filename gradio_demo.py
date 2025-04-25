@@ -24,7 +24,7 @@ from torchvision import transforms
 
 import models_accessory as models
 from transport import Sampler, create_transport
-from models.lora import replace_linear_with_lora
+from models_accessory.lora import replace_linear_with_lora
 import gradio as gr
 
 #############################################################################
@@ -194,7 +194,7 @@ def load_models(args):
     vae.requires_grad_(False)
     print("VAE loaded")
     # Load training parameters
-    train_args = torch.load(os.path.join(args.ckpt, "model_args.pth"))
+    train_args = torch.load(os.path.join(args.ckpt, "model_args.pth"), weights_only=False)
     
     # Create model
     model = models.__dict__[train_args.model](
