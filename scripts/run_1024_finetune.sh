@@ -15,7 +15,7 @@ training_type=full_model
 dir_name=lumina_results
 mkdir -p "$dir_name"
 
-python -u finetune_infilling.py \
+python -u finetune_accessory.py \
     --master_port 18187 \
     --global_bsz_1024 ${global_batch_size} \
     --micro_bsz_1024 ${micro_batch_size} \
