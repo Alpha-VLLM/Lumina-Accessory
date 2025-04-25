@@ -22,9 +22,9 @@ import torch.nn.functional as F
 from data import DataNoReportException, ItemProcessor, MyDataset, read_general
 from torchvision import transforms
 
-import models_infilling as models
+import models_accessory as models
 from transport import Sampler, create_transport
-from models.lora import replace_linear_with_lora
+from models_accessory.lora import replace_linear_with_lora
 
 #############################################################################
 #                            Condition Generator                            #
