@@ -7,3 +7,5 @@ gradio
 torchdiffeq
 click
 torchvision
+h5py
+opencv-python
